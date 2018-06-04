@@ -94,4 +94,7 @@ Rails.application.configure do
 
   # Reactの環境値を development にする
   config.react.variant = :production
+
+  # React.jsのAddonを有効にする(デフォルトはfalse)
+  config.react.addons = true
 end
